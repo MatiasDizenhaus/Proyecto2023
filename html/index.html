@@ -18,7 +18,7 @@ hr sirve para hacer una linea en la pantalla
 -->
 
    <p> 
-    este texto <span style=" color:blue"> muy largo y no entra  </span> en un renglo solo 
+    este texto <span style=" color:blue"> muy largo y no entra  </span> en un renglon solo 
     asi que <br> <br> <br> <br> 
      sigo escribiendo cosas.
      <a href="http://www.google.com.ar"> ir a google </a>
@@ -31,6 +31,8 @@ hr sirve para hacer una linea en la pantalla
      <img src="img/ecudo de indeendeinte.png" width="400"  />
      <!-- NO SE HACE ESTO, SE PONE SOLO HEIGHT O SOLO WIDTH PORQUE LA IMAGEN QUEDA MAL-->
   </p> 
+
+  
   <form action="/formulario" method="GET">
    <label for="usuario"> usuario </label>  
    <input id = "usuario" name="usuario" placeholder="nombre" />
@@ -45,10 +47,38 @@ hr sirve para hacer una linea en la pantalla
 <br>
 
 <input type="submit" />  
+<button type="button"><img src="img/ecudo de indeendeinte.png" /></button>
+<button type="button">tipo boton</button>
+<button type="reset">tipo reset</button>
+<button type="submit">tipo submit</button>
+
 </form>
- 
+<br>
+<hr>
 
+<ul>
+   <li> elemento 1 </li>
+   <li> elemento 2 </li>
+   <li> elemento 3 </li>
+   <li> elemento 4 </li>
 
+</ul>
+
+<ol>
+   <li value="50"> elemento 1 </li>
+   <li> elemento 2 </li>
+   <li> elemento 3 </li>
+   <li> elemento 4 </li>
+   <li>
+      <ol>
+         <li style="list-style: lower-roman;">sub elemento 1</li>
+         <li style="list-style: lower-alpha;">sub elemento 2</li>
+         <li style="list-style: lower-alpha;">sub elemento 3</li>
+
+      </ol>
+   </li>
+
+</ol>
 
 </body>
 </html>
