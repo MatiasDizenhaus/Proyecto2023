@@ -57,8 +57,8 @@ form.username{
     background: #8b0085;
 
 }
-.username input: :focus~label,
-.username input: :focus~label{
+.username input :focus~label,
+.username input:focus~label{
     top: -5px;
     color: #8b0085;
     
