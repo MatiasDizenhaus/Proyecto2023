@@ -8,9 +8,9 @@ body {
 
 .formulario{
     position: absolute;
-    top: 20%;
-    left: 32%;
-    transform: translate8(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 450px;
     background: rgb(248, 242, 242);
     border-radius: 25px; 
@@ -20,7 +20,7 @@ body {
 .formulario h1{
     text-align: center;
     padding: 0 0 25px 0;
-    border-bottom: 1.5px solid #adadad;
+    border-bottom: 1px solid #adadad;
     color: #be5555;
 }
 .formulario form{
@@ -47,6 +47,7 @@ form .username, form .contrasena{
     position: absolute;
     top: 60%;
     left: 0px;
+    color: #adadad;
     transform: translateY(-50%);
     font-size: 16px;
     pointer-events: none;
@@ -68,6 +69,7 @@ form .username, form .contrasena{
 .username input:focus ~ label,
 .contrasena input:focus ~ label{
     top: -5px;
+    color: #be5555
     
 }
     
@@ -98,21 +100,22 @@ input[type="submit"]{
     border: 1px solid;
     background: #929292;
     border-radius: 25px;
-    font-size: 16px;
+    font-size: 18px;
     color: white;
     cursor: pointer;
     outline: none;
 }
 
-input[type="submit"]{
-    border-color:black;
+input[type="submit"]:hover{
+    border-color: purple;
+    transition: .5s;
 }
 
 .registrarse{
     margin: 30px 0;
     text-align: center;
     font-size: 16px;
-    color: rgb(0, 0, 0);
+    color: black;
 }
 
 .registrarse a{

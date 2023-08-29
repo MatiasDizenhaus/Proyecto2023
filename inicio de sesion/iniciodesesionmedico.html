@@ -2,28 +2,39 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Inicio de sesion</title>
     <link rel="stylesheet" href="iniciodesesionmedico.css">
 </head>
 <body>
-    <div class = "formulario">
-        <h1> Inicio de sesion</h1>
-        <form method="post">
-            <div class="username">
-                <input type="text" required>
-                <label>Nombre de usuario</label> 
-                <input type="password" required>
-              <label>Contraseña </label>
-            </div>
-          <div class="recordar"> ¿Olvidó su contraseña? </div>
-          <input type="submit" value="iniciar">
-          <div class="registrarse">
-              Quiero hacer el <a href="#">Registro </a>
-          </div>
+    <img src="logo infinito.PNG" width="110"/>
+
+    <div class="formulario">
+        <h1>Inicio de sesion de medico</h1>
+        <form action="index.php" method="post">
+             <div class="username">
+                <input type="text" name="Mail" placeholder="" required>
+                <label>Usuario</label>
+             </div>
+             <div class="contrasena">
+                <input type="password" name="Contraseña" placeholder="" required>
+                <label>Contraseña</label>
+             </div>
+             <div class="recordar">¿Olvido su contraseña?</div>
+             <input type="submit" value="Iniciar">
+             <tr>
+                 <td text-align=center colspan=3> <input type="hidden" name="SI" value="L"></td>
+                 
+
+             </tr>
+            
+             <div class="registrarse">
+                
+                
+             </div>
+             
+             
         </form>
     </div>
-    
 </body>
 </html>
