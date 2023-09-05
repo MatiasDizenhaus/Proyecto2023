@@ -1,4 +1,37 @@
+.logo-buttons {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    display: flex;
+    align-items: center;
+}
 
-#fondo{
-    background: #f00 url('postit.png') repeat-y center bottom / 100px 100px;
+/* Estilos para cada botón de logotipo */
+.logo-button {
+    margin-left: 25px; /* Espacio entre los botones de logotipo si es necesario */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+}
+
+/* Estilos para las imágenes de los botones de logotipo */
+.logo-button img {
+    width: 50px; /* Ancho de la imagen del botón */
+    height: 50px; /* Altura de la imagen del botón */
+    border-radius: 50%; /* Esto hace que las imágenes sean círculos si lo deseas */
+    border: 2px solid #be5555; /* Borde alrededor de la imagen del botón */
+    transition: transform 0.3s ease-in-out; /* Efecto de transformación suave al pasar el cursor */
+}
+
+/* Estilos para el efecto de hover en las imágenes de los botones de logotipo */
+.logo-button img:hover {
+    transform: scale(1.1); /* Escala ligeramente la imagen al pasar el cursor */
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(150deg, #adadad, #be5555);
+    height: 100vh;   
+}
+.p{
+    font-size: 16px;
 }
