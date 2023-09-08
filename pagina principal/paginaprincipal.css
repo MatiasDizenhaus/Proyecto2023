@@ -32,6 +32,10 @@ body {
     background: linear-gradient(150deg, #adadad, #be5555);
     height: 100vh;   
 }
-.p{
-    font-size: 16px;
+p.texto{
+    font-size: 20px;
+    border: 2px;
+    border-style:dashed;
+    border-radius: 2px;
+    border-width: 2rem;
 }
