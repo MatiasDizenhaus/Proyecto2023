@@ -28,14 +28,25 @@
 body {
     margin: 0;
     padding: 0;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: linear-gradient(150deg, #adadad, #be5555);
     height: 100vh;   
+    
 }
-p.texto{
-    font-size: 20px;
-    border: 2px;
-    border-style:dashed;
-    border-radius: 2px;
-    border-width: 2rem;
+.frase-container {
+    text-align: center; /* Centra el texto horizontalmente */
+    margin-top: 10px; /* Espacio en la parte superior del párrafo */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    min-height: 50vh;
+}
+
+.frase {
+    font-size: 20px; /* Tamaño de fuente de la frase */
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 800px; /* Ancho máximo del contenedor de la frase */
+    margin: 0 auto; /* Centra el contenedor de la frase horizontalmente */
+    text-align: center; /* Centra el texto dentro del contenedor */
+    line-height: 1.5; /* Espacio entre líneas para dividir la frase en tres renglones */
 }
