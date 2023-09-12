@@ -32,29 +32,3 @@ body {
     height: 100vh;   
     
 }
-.frase-container {
-    text-align: center; /* Centra el texto horizontalmente */
-    margin-top: 10px; /* Espacio en la parte superior del párrafo */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-    min-height: 50vh;
-}
-
-.frase {
-    font-size: 20px; /* Tamaño de fuente de la frase */
-    font-family: 'Courier New', Courier, monospace;
-    max-width: 800px; /* Ancho máximo del contenedor de la frase */
-    margin: 0 auto; /* Centra el contenedor de la frase horizontalmente */
-    text-align: center; /* Centra el texto dentro del contenedor */
-    line-height: 1.5; /* Espacio entre líneas para dividir la frase en tres renglones */
-    font-weight: bold; /* Aplica negrita al texto */
-}
-.button-img {
-    background: transparent; /* Establece el fondo como transparente */
-    border: none; /* Elimina el borde */
-    cursor: pointer; /* Cambia el cursor al puntero cuando se pasa por encima */
-    outline: none; /* Elimina el contorno al hacer clic */
-    padding: 0; /* Elimina el relleno */
-}
