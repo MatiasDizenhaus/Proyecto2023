@@ -60,8 +60,9 @@ input[type="submit"]:hover{
     width: 30%;
     height: 100px;
     resize: none;
-    border: 1px solid #ccc; /* Agrega un borde gris */
+    border: 1px solid #be5555; /* Agrega un borde gris */
     border-radius: 10px; /* Hace que los bordes sean más redondeados */
     padding: 10px; /* Agrega espacio interno para que el texto no esté pegado al borde */
     font-size: 16px; /* Cambia el tamaño de fuente del texto en el cuadro de comentarios */
+   
 }

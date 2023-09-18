@@ -31,24 +31,17 @@ body {
     background-color: rgb(228, 225, 225);
     height: 100vh;  
     max-width: 95%; 
+}
+h1{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-    font-size: 20px; 
-    margin-bottom: 10%;
-
+    font-size: 40px;
+    margin-left: 37%;
+    color:#be5555;
 }
-.texto{
-    margin-left: 50px;
-
-}
-.logo{
-    margin: 0;
-    padding: 0;
-    margin-left: 0px;
-}
-.titulo{
-    margin-left: 50px;
-    color: #be5555;
-}
-ul{
-    color: #be5555;
+.compatibilidad{
+    width: 60%;
+    border: none;
+    margin-left: 22.5%;
+    border-color:#be5555;
+    border-style: solid;
 }
