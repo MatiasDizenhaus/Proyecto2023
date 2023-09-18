@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="sugerencias.css"/> 
 </head>
 <body>
-    <img src="logo2.0.png" width="125" height="70"/>
+    <img src="logo2.0.png" width="150" , height="75" class="logo"/>
     <div class="logo-buttons">
         <a href="#" class="logo-button"><img src="foto gota.png" alt="Logo 1"></a>
         <a href="#" class="logo-button"><img src="foto cruz.png" alt="Logo 2"></a>
@@ -15,13 +15,21 @@
         <a href="#" class="logo-button"><img src="foto inicio.png" alt="Logo 4"></a>
     </div>
     <div class="dejanos">
-        <p class="frase"> Dejanos aca tu sugerencia</p>
+        <h1> Dejanos aca tu sugerencia</h1>
     </div>
-    <form action="/formulario" method="GET">
-        <textarea id="comentario" placeholder="sugerencias" name ="comentario"></textarea>     
+    <br>
+    <form action="/formulario" method="GET" class="formulario">
+        <textarea id="comentario" placeholder="Sugerencias" name ="comentario" ></textarea>  
+        <br>
+        <br>
+        <br>
+        <input type="submit" value="Enviar">
+             <tr>
+                 <td text-align=center colspan=3> <input type="hidden" name="SI" value="L"></td>
+             </tr>   
      </form>
      <div class="gracias">
-        <p class="frase"> ¡¡Gracias por ayudarnos a mejorar!!</p>
+        <h2> ¡¡Gracias por ayudarnos a mejorar!!</h2>
     </div>
      
 </body>

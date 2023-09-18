@@ -28,7 +28,21 @@
 body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(150deg, #adadad, #be5555);
-    height: 100vh;   
-    
+    background-color: rgb(228, 225, 225);
+    height: 100vh;  
+    max-width: 950px; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+
+}
+.texto{
+    margin-left: 50px;
+
+}
+.logo{
+    margin: 0;
+    padding: 0;
+    margin-left: 0px;
+}
+.titulo{
+    margin-left: 50px;
 }

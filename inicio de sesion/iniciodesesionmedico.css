@@ -29,7 +29,7 @@ body {
     margin: 0;
     padding: 0;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(150deg, #adadad, #be5555);
+    background-color: rgb(228, 225, 225);
     height: 100vh;   
 }
 
@@ -39,7 +39,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 450px;
-    background: rgb(248, 242, 242);
+    background: rgb(190, 190, 190);
     border-radius: 25px;
     
 }
@@ -71,7 +71,7 @@ form .username, form .contrasena{
     position: absolute;
     top: 0;
     left: 5px;
-    color: #adadad;
+    color: #000000;
     font-size: 16px;
     pointer-events: none;
     transition: .5s;
@@ -117,7 +117,7 @@ input[type="submit"]{
 
 }
 input[type="submit"]:hover{
-    border-color: purple;
+    border-color: #be5555;
     transition: .5s;
 }
 .registrarse{
