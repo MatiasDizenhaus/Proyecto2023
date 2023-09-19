@@ -23,7 +23,7 @@
 
 /* Estilos para el efecto de hover en las imágenes de los botones de logotipo */
 .logo-button img:hover {
-    transform: scale(1.1); /* Escala ligeramente la imagen al pasar el cursor */
+    transform: scale(1.2); /* Escala ligeramente la imagen al pasar el cursor */
 }
 body {
     margin: 0;
