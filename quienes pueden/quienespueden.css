@@ -22,7 +22,7 @@
     margin:0;
     padding: 0;
     bottom: 84%;
-    left: 1120px;
+    left: 1122px;
     position: absolute;
     font-size: 12px;
     font-family: 'Courier New', Courier, monospace;
@@ -72,29 +72,20 @@ body {
     height: 100vh;  
     max-width: 95%; 
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-    font-size: 20px; 
-
-    
-}
-
-
-.razones {
-    text-align: center; /* Centra el contenido en el medio */
-    font-size: 30px; /* Aumenta el tamaño de la fuente */
-    margin-left: 5%;
-    margin-top: 2%;
+    font-size: 22px; 
 }
 .titulo{
-    text-align: center; /* Centra el contenido en el medio */
-    font-size: 30px; /* Aumenta el tamaño de la fuente */
-    color: #be5555; /* Cambia el color del texto a rojo */
-    margin-left: 5%;
-    margin-top: 2%;
+    margin-left: 20%;
+    color: #be5555;
+    font-size: 40px;
 }
-.pregunta2{
-    color: #be5555; /* Cambia el color del texto a rojo */
+.condiciones{
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.podes{
+    color: #be5555;
+    font-weight: bold;
+    font-size: 25px;
 
 }
-
-
-
