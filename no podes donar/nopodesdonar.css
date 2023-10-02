@@ -82,9 +82,14 @@ body {
     text-align: center;
     padding: 20px;
     color: #be5555;
+    
 }
 .triste{
   align-items: center;
   margin-left: 40%;
-  margin-top: 15px;
+  margin-top: 10px;
+}
+.logo{
+  background: none;
+  border: none;
 }

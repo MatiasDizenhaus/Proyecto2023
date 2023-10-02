@@ -87,5 +87,8 @@ body {
     color: #be5555;
     font-weight: bold;
     font-size: 25px;
-
+}
+.logo{
+    background: none;
+    border: none;
 }

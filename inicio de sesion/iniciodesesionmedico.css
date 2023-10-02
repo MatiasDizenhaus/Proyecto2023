@@ -161,5 +161,8 @@ input[type="submit"]:hover{
     border-color: #be5555;
     transition: .5s;
 }
-
+.logo{
+    background: none;
+    border: none;
+}
 

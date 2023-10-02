@@ -95,6 +95,9 @@ body {
     color: #be5555; /* Cambia el color del texto a rojo */
 
 }
-
+.logo{
+    background: none;
+    border: none;
+}
 
 

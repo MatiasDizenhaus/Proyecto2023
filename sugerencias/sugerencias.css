@@ -109,5 +109,8 @@ input[type="submit"]:hover{
     border-radius: 10px; /* Hace que los bordes sean más redondeados */
     padding: 10px; /* Agrega espacio interno para que el texto no esté pegado al borde */
     font-size: 16px; /* Cambia el tamaño de fuente del texto en el cuadro de comentarios */
-   
+}   
+.logo{
+    background: none;
+    border: none;
 }
