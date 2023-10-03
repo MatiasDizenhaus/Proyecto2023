@@ -2,7 +2,7 @@
     margin:0;
     padding: 0;
     bottom: 84%;
-    left: 65%;
+    left: 65.5%;
     position: absolute;
     font-size: 12px;
     font-family: 'Courier New', Courier, monospace;
@@ -66,8 +66,8 @@
       transform: scale(1.2); /* Escala ligeramente la imagen al pasar el cursor */
   }
 body {
-    margin: 0;
-    padding: 0;
+    margin: 5px;
+    padding: 5px;
     background-color: rgb(250, 250, 250);
     height: 100vh;  
     max-width: 80%; 
