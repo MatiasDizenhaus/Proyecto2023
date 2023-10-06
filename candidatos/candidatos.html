@@ -19,6 +19,26 @@
     <div><p class="Donante">Donante</p></div>
     <div><p class="Clinica">Clínica</p></div>
     <div><p class="Iniciar-sesion">Iniciar sesión</p></div>
+    
+    <section class="perfiles-gallery">
+  <!-- Utiliza un bucle para generar las tarjetas de perfil -->
+  <?php
+    // Supongamos que $perfiles es un array con los perfiles obtenidos de la base de datos
+    foreach ($perfiles as $perfil) {
+  ?>
+    <div class="perfiles">
+      <img src="<?php echo $perfil['imagen']; ?>" alt="Foto del perfil">
+      <h3><?php echo $perfil['nombre']; ?></h3>
+      <p>Tipo de sangre: <?php echo $perfil['tipo_de_sangre']; ?></p>
+      <p>Dirección: <?php echo $perfil['direccion']; ?></p>
+      <p>Correo electrónico: <?php echo $perfil['correo']; ?></p>
+      <p>Teléfono: <?php echo $perfil['telefono']; ?></p>
+    </div>
+  <?php
+    }
+  ?>
+</section>
+    
     </form>
 </body>
 </html>
