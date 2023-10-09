@@ -113,4 +113,5 @@ input[type="submit"]:hover{
 .logo{
     background: none;
     border: none;
+    cursor: pointer;
 }

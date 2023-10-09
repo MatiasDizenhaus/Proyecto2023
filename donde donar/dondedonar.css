@@ -88,6 +88,7 @@ h1{
 .logo{
   background: none;
   border: none;
+  cursor: pointer;
 }
 .pdf{
     max-width: 85%;

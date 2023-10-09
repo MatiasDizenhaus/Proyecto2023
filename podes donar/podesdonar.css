@@ -1,6 +1,7 @@
 .logo{
   background: none;
   border: none;
+  cursor: pointer;
 }
 .compatibilidad{
     margin:0;
