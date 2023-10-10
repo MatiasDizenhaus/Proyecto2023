@@ -1,42 +1,45 @@
-.compatibilidad{
+.donante{
+    margin:0;
+    padding: 0;
+    bottom: 82%;
+    left: 67.5%;
+    position: absolute;
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    max-width: 6%;
+  }
+  .Iniciar-sesion{
     margin:0;
     padding: 0;
     bottom: 84%;
-    left: 65.5%;
+    left: 1210px;
     position: absolute;
     font-size: 12px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
   }
-  .Iniciar-sesión{
+  .clinica{
     margin:0;
     padding: 0;
-    bottom: 84%;
-    left: 1190px;
+    bottom: 82%;
+    left: 1120px;
     position: absolute;
     font-size: 12px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
+    max-width: 6%;
   }
-  .Clínica{
+  .medico{
     margin:0;
     padding: 0;
-    bottom: 84%;
-    left: 1106px;
+    bottom: 82%;
+    left: 1005px;
     position: absolute;
     font-size: 12px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-  }
-  .Donante{
-    margin:0;
-    padding: 0;
-    bottom: 84%;
-    left: 993px;
-    position: absolute;
-    font-size: 12px;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
+    max-width: 5%;
   }
   .logo-buttons {
       position: absolute;

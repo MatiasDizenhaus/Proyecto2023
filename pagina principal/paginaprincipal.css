@@ -1,14 +1,15 @@
-.compatibilidad{
+.donante{
   margin:0;
   padding: 0;
-  bottom: 84%;
-  left: 66%;
+  bottom: 82%;
+  left: 67.5%;
   position: absolute;
   font-size: 12px;
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
+  max-width: 6%;
 }
-.Iniciar-sesión{
+.Iniciar-sesion{
   margin:0;
   padding: 0;
   bottom: 84%;
@@ -18,25 +19,27 @@
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
 }
-.Clínica{
+.medico{
   margin:0;
   padding: 0;
-  bottom: 84%;
-  left: 1125px;
+  bottom: 82%;
+  left: 1120px;
   position: absolute;
   font-size: 12px;
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
+  max-width: 6%;
 }
-.Donante{
+.clinica{
   margin:0;
   padding: 0;
-  bottom: 84%;
-  left: 1010px;
+  bottom: 82%;
+  left: 1005px;
   position: absolute;
   font-size: 12px;
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
+  max-width: 6%;
 }
 .logo-buttons {
     position: absolute;
