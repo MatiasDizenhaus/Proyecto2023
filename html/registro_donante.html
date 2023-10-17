@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de donante</title>
+    <link rel="stylesheet" href="../css/registro_donante.css"> 
+</head>
+<body>
+    <button type="button" class="logo" id="volver">
+        <img src="../imagenes/logo2.0.png" width="150px" height="75px"/>
+      </button>    
+      <div class="logo-buttons">
+        <a href="#" class="logo-button"><img src="../imagenes/foto_gota.png" alt="Logo 1"></a>
+        <a href="#" class="logo-button"><img src="../imagenes/foto_cruz.png" alt="Logo 2"></a>
+        <a href="#" class="logo-button"><img src="../imagenes/logo_medico.png" alt="Logo 3"></a>
+        <a href="#" class="logo-button"><img src="../imagenes/foto_inicio.png" alt="Logo 3" id="iniciar_sesion"></a>    </div>
+    <div><p class="donante">Registro de Donante</p></div>
+    <div><p class="clinica">Registro de Clínica</p></div>
+    <div><p class="medico">Registro de médico</p></div>
+    <div><p class="Iniciar-sesion">Iniciar sesión</p></div>
+    <div>
+        <h1> Registro de donante</h1>
+    </div>
+    <form action="procesar_formulario.php" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required><br><br>
+
+        <label for="dni">DNI:</label>
+        <input type="text" id="dni" name="dni" required><br><br>
+
+        <label for="contrasena">Contraseña:</label>
+        <input type="password" id="contrasena" name="contrasena" required><br><br>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono"><br><br>
+
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" id="correo" name="correo" required><br><br>
+
+        <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+        <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required><br><br>
+
+        <label for="genero">Género:</label>
+        <input type="radio" id="genero_masculino" name="genero" value="Masculino"> Masculino
+        <input type="radio" id="genero_femenino" name="genero" value="Femenino"> Femenino
+        <input type="radio" id="genero_otro" name="genero" value="Otro"> Otro<br><br>
+
+        <label for="peso">Peso (kg):</label>
+        <input type="number" id="peso" name="peso"><br><br>
+
+        <label for="altura">Altura (cm):</label>
+        <input type="number" id="altura" name="altura"><br><br>
+
+        <label for="direccion">Dirección:</label>
+        <textarea id="direccion" name="direccion"></textarea><br><br>
+
+        <label for="tipo_sangre">Tipo de Sangre:</label>
+        <select id="tipo_sangre" name="tipo_sangre" required>
+            <option value="">Seleccione su tipo de sangre</option>
+            <option value="A+">A+</option>
+            <option value="A-">A-</option>
+            <option value="B+">B+</option>
+            <option value="B-">B-</option>
+            <option value="AB+">AB+</option>
+            <option value="AB-">AB-</option>
+            <option value="O+">O+</option>
+            <option value="O-">O-</option>
+        </select><br><br>
+
+        <label for="localidad">Localidad:</label>
+        <input type="text" id="localidad" name="localidad"><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+<script type="text/javascript" src="../js/jquery-3.7.1.js"></script>
+<script type="text/javascript" src="../js/redirecciones.js"></script>
+</html>

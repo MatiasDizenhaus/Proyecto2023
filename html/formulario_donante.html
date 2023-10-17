@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de donante</title>
+    <link rel="stylesheet" href="../css/formulario_donante.css"> 
+</head>
+<body>
+    <button type="button" class="logo" id="volver">
+        <img src="../imagenes/logo2.0.png" width="150px" height="75px"/>
+      </button>    
+      <div class="logo-buttons">
+        <a href="#" class="logo-button"><img src="../imagenes/foto_gota.png" alt="Logo 1"></a>
+        <a href="#" class="logo-button"><img src="../imagenes/foto_cruz.png" alt="Logo 2"></a>
+        <a href="#" class="logo-button"><img src="../imagenes/logo_medico.png" alt="Logo 3"></a>
+        <a href="#" class="logo-button"><img src="../imagenes/foto_inicio.png" alt="Logo 3" id="iniciar_sesion"></a>    </div>
+    <div><p class="donante">Registro de Donante</p></div>
+    <div><p class="clinica">Registro de Clínica</p></div>
+    <div><p class="medico">Registro de médico</p></div>
+    <div><p class="Iniciar-sesion">Iniciar sesión</p></div>
+    <div>
+        <h1> Formulario de donante</h1>
+    </div>
+    <form action="procesar_formulario.php" method="post">
+        <label for="piercing">¿Te hiciste un piercing en el último año?</label>
+        <input type="radio" name="piercing" value="si"> Sí
+        <input type="radio" name="piercing" value="no"> No
+        <br>
+
+        <label for="tatuajes">¿Tienes tatuajes?</label>
+        <input type="radio" name="tatuajes" value="si"> Sí
+        <input type="radio" name="tatuajes" value="no"> No
+        <br>
+
+        <label for="enfermedades">¿Tienes enfermedades?(en caso de que si, ¿cúales?)</label>
+        <input type="text" name="enfermedades">
+        <br>
+
+        <label for="donaciones">¿Has donado en los últimos 6 meses?</label>
+        <input type="radio" name="donaciones" value="si"> Sí
+        <input type="radio" name="donaciones" value="no"> No
+        <br>
+
+        <label for="operacion">¿Te hiciste alguna operación en los últimos 3 meses?</label>
+        <input type="radio" name="operacion" value="si"> Sí
+        <input type="radio" name="operacion" value="no"> No
+        <br>
+
+        <label for="embarazo">¿Estás embarazada?</label>
+        <input type="radio" name="embarazo" value="si"> Sí
+        <input type="radio" name="embarazo" value="no"> No
+        <br>
+
+        <label for="fumas">¿Fumas?</label>
+        <input type="radio" name="fumas" value="si"> Sí
+        <input type="radio" name="fumas" value="no"> No
+        <br>
+
+        <label for="drogas">¿Consumes drogas?</label>
+        <input type="radio" name="drogas" value="si"> Sí
+        <input type="radio" name="drogas" value="no"> No
+        <br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+<script type="text/javascript" src="../js/jquery-3.7.1.js"></script>
+<script type="text/javascript" src="../js/redirecciones.js"></script>
+</html>
