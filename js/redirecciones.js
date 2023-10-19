@@ -5,6 +5,10 @@ $("#volver").click(function(){
     window.location.replace("paginaprincipal.html");
 });
 
+$("#volverpp").click(function(){
+    window.location.replace("paginaprincipal.html");
+});
+
 $("#porque").click(function(){
     window.location.replace("por_que.html");
 });
@@ -39,6 +43,18 @@ $("#inicio_medico").click(function(){
 
 $("#inicio_donante").click(function(){
     window.location.replace("iniciodesesiondonante.html");
+});
+
+$("#formulario").click(function(){
+    window.location.replace("formulario_donante.html");
+});
+
+$("#registro_donante").click(function(){
+    window.location.replace("registro_donante.html");
+});
+
+$("#posibles_candidatos").click(function(){
+    window.location.replace("candidatos.html");
 });
 
 
