@@ -57,5 +57,8 @@ $("#posibles_candidatos").click(function(){
     window.location.replace("candidatos.html");
 });
 
+$("#compatibilidad").click(function(){
+    window.location.replace("compatibilidad.html");
+});
 
 });
