@@ -11,7 +11,7 @@
         <img src="../imagenes/logo2.0.png" width="150px" height="75px"/>
       </button>    
       <div class="logo-buttons">
-        <a href="#" class="logo-button"><img src="../imagenes/foto_gota.png" alt="Logo 1"></a>
+        <a href="#" class="logo-button"><img src="../imagenes/foto_gota.png" alt="Logo 1" id="registro_donante"></a>
         <a href="#" class="logo-button"><img src="../imagenes/foto_cruz.png" alt="Logo 2"></a>
         <a href="#" class="logo-button"><img src="../imagenes/logo_medico.png" alt="Logo 3"></a>
         <a href="#" class="logo-button"><img src="../imagenes/foto_inicio.png" alt="Logo 3" id="iniciar_sesion"></a>    </div>
@@ -26,44 +26,73 @@
         <label for="DNI">DNI</label>
         <input type="text" name="DNI">
         <br>
-        <label for="piercing">¿Te hiciste un piercing en el último año?</label>
-        <input type="radio" name="piercing" value="si"> Sí
-        <input type="radio" name="piercing" value="no"> No
-        <br>
+        <label for="piercings">Piercings:</label>
+        <select id="piercings" name="piercings" required class="piercings">
+            <option value=""></option>
+            <option value="Realizado hace mas de un año/no tengo">Realizado hace mas de un año/no tengo</option>
+            <option value="Realizado hace menos de un año">Realizado hace menos de un año</option>
+        </select><br>
 
         <label for="tatuajes">¿Tienes tatuajes?</label>
-        <input type="radio" name="tatuajes" value="si"> Sí
-        <input type="radio" name="tatuajes" value="no"> No
-        <br>
+        <select id="tatuajes" name="tatuajes" required class="tatuajes">
+            <option value=""></option>
+            <option value="Realizado hace mas de un año/no tengo">Realizado hace mas de un año/no tengo</option>
+            <option value="Realizado hace menos de un año">Realizado hace menos de un año</option>
+        </select><br>
 
-        <label for="enfermedades">¿Tienes enfermedades?(en caso de que si, ¿cúales?)</label>
-        <input type="text" name="enfermedades">
-        <br>
+        <label for="enfermedades">¿Padecés alguna enfermedad de tipo infecciosa/transmisible por sangre/cronica grave?</label>
+        <select id="enfermedades" name="enfermedades" required class="enfermedades">
+            <option value=""></option>
+            <option value="Si">Si</option>
+            <option value="No">No</option>
+        </select><br>
 
-        <label for="donaciones">¿Has donado en los últimos 6 meses?</label>
-        <input type="radio" name="donaciones" value="si"> Sí
-        <input type="radio" name="donaciones" value="no"> No
-        <br>
+        <label for="donaciones">¿Última donación?</label>
+        <select id="ultima" name="ultima" required class="ultima">
+            <option value=""></option>
+            <option value="Hace mas de 6 meses/nunca done">Hace mas de 6 meses/nunca doné</option>
+            <option value="Hace menos de 6 meses">Hace menos de 6 meses</option>
+        </select><br>
 
-        <label for="operacion">¿Te hiciste alguna operación en los últimos 3 meses?</label>
-        <input type="radio" name="operacion" value="si"> Sí
-        <input type="radio" name="operacion" value="no"> No
-        <br>
+        <label for="intervension">Intervensión quirurgica / endoscopía</label>
+        <select id="intervension" name="intervension" required class="intervension">
+            <option value=""></option>
+            <option value="No/hace mas de un año">No/hace mas de un año</option>
+            <option value="Recientes, hace menos de un año">Recientes, hace menos de un año</option>
+        </select><br>
 
+        <label for="tipo_sangre">Tipo de Sangre:</label>
+        <select id="tipo_sangre" name="tipo_sangre" required>
+            <option value="">Seleccione su tipo de sangre</option>
+            <option value="A+">A+</option>
+            <option value="A-">A-</option>
+            <option value="B+">B+</option>
+            <option value="B-">B-</option>
+            <option value="AB+">AB+</option>
+            <option value="AB-">AB-</option>
+            <option value="O+">O+</option>
+            <option value="O-">O-</option>
+        </select><br>
         <label for="embarazo">¿Estás embarazada?</label>
-        <input type="radio" name="embarazo" value="si"> Sí
-        <input type="radio" name="embarazo" value="no"> No
-        <br>
+        <select id="embarazo" name="embarazo" required class="embarazo">
+            <option value=""></option>
+            <option value="Si">Si</option>
+            <option value="No">No</option>
+        </select><br>
 
         <label for="fumas">¿Fumas?</label>
-        <input type="radio" name="fumas" value="si"> Sí
-        <input type="radio" name="fumas" value="no"> No
-        <br>
+        <select id="fumas" name="fumas" required class="fumas">
+            <option value=""></option>
+            <option value="Si">Si</option>
+            <option value="No">No</option>
+        </select><br>
 
         <label for="drogas">¿Consumes drogas?</label>
-        <input type="radio" name="drogas" value="si"> Sí
-        <input type="radio" name="drogas" value="no"> No
-        <br>
+        <select id="drogas" name="drogas" required class="drogas">
+            <option value=""></option>
+            <option value="Si">Si</option>
+            <option value="No">No</option>
+        </select><br>
 
         <input type="submit" value="Enviar">
     </form>

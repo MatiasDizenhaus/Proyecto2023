@@ -53,6 +53,10 @@ $("#registro_donante").click(function(){
     window.location.replace("registro_donante.html");
 });
 
+$("#registrate").click(function(){
+    window.location.replace("registro_donante.html");
+});
+
 $("#posibles_candidatos").click(function(){
     window.location.replace("candidatos.html");
 });
