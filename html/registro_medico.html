@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro de clínica</title>
-    <link rel="stylesheet" href="../css/registro_clinica.css"> 
+    <title>Registro de Medico</title>
+    <link rel="stylesheet" href="../css/registro_donante.css"> 
 </head>
 <body>
     <button type="button" class="logo" id="volver">
@@ -20,24 +20,34 @@
     <div><p class="medico">Registro de médico</p></div>
     <div><p class="Iniciar-sesion">Iniciar sesión</p></div>
     <div>
-        <h1> Registro de clínica</h1>
+        <h1> Registro de Medico</h1>
     </div>
     <form action="procesar_formulario.php" method="POST">
-        <label for="nombre">Nombre de la clínica:</label>
+        <label for="nombre">Nombre:</label>
         <input type="text" id="nombre" name="nombre" required><br><br>
 
-        <label for="direccion">Dirección:</label>
-        <input type="text" id="direccion" name="direccion" required><br><br>
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required><br><br>
 
-        <label for="jefe">Jefe de hematología:</label>
-        <input type="text" id="jefe" name="jefe" required><br><br>
+        <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+        <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required><br><br>
 
-        <label for="dni">DNI del jefe de hematología:</label>
+        <label for="dni">DNI del Médico:</label>
         <input type="text" id="dni" name="dni" required><br><br>
 
         <label for="contrasena">Contraseña:</label>
         <input type="password" id="contrasena" name="contrasena" required><br><br>
-        <input type="submit" value="Enviar" id="clinica_registrada">
+
+        <label for="telefono">Número de Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono"><br><br>
+
+        <label for="correo">Correo Electronico:</label>
+        <input type="email" id="correo" name="correo" required><br><br>
+
+        <label for="matricula">Mátricula:</label>
+        <input type="text" id="matricula" name="matricula" required><br><br>
+        
+<input type="submit" value="Enviar" id="medico_registrado">
     </form>
 </body>
 <script type="text/javascript" src="../js/jquery-3.7.1.js"></script>
