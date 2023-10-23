@@ -65,4 +65,8 @@ $("#compatibilidad").click(function(){
     window.location.replace("compatibilidad.html");
 });
 
+$("#registro_clinica").click(function(){
+    window.location.replace("registro_clinica.html");
+});
+
 });

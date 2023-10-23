@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio de sesión de medico</title>
-    <link rel="stylesheet" href="../css/iniciodesesionmedico.css"> 
+    <title>Registro de clínica</title>
+    <link rel="stylesheet" href="../css/registro_clinica.css"> 
 </head>
 <body>
     <button type="button" class="logo" id="volver">
@@ -19,27 +19,26 @@
     <div><p class="clinica">Registro de Clínica</p></div>
     <div><p class="medico">Registro de médico</p></div>
     <div><p class="Iniciar-sesion">Iniciar sesión</p></div>
-    <div class="formulario">
-        <h1>Inicio de sesion de médico</h1>
-        <form action="index.php" method="post">
-             <div class="username">
-                <input type="text" name="DNI" placeholder="ingrese su DNI" required>
-                <label>Usuario</label>
-             </div>
-             <div class="contrasena">
-                <input type="password" name="Contraseña" placeholder="Ingrese su contraseña" required>
-                <label>Contraseña</label>
-             </div>
-            
-             <input type="submit" value="Iniciar">
-             <tr>
-                 <td text-align=center colspan=3> <input type="hidden" name="SI" value="L"></td>    
-            </tr>
-            <div class="registro">
-                <p>¿No tenés cuenta? <a href="registro.html">Registrate acá</a></p>
-        </div>
-</form>
+    <div>
+        <h1> Registro de clínica</h1>
     </div>
+    <form action="procesar_formulario.php" method="POST">
+        <label for="nombre">Nombre de la clínica:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="direccion">Dirección:</label>
+        <input type="text" id="direccion" name="direccion" required><br><br>
+
+        <label for="jefe">Jefe de hematología:</label>
+        <input type="text" id="jefe" name="jefe" required><br><br>
+
+        <label for="dni">DNI del jefe de hematología:</label>
+        <input type="text" id="dni" name="dni" required><br><br>
+
+        <label for="contrasena">Contraseña:</label>
+        <input type="password" id="contrasena" name="contrasena" required><br><br>
+        <input type="submit" value="Enviar" >
+    </form>
 </body>
 <script type="text/javascript" src="../js/jquery-3.7.1.js"></script>
 <script type="text/javascript" src="../js/redirecciones.js"></script>
