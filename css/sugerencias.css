@@ -1,8 +1,8 @@
-.donante{
+.clinica{
     margin:0;
     padding: 0;
     bottom: 82%;
-    left: 1075px;
+    left: 1005px;
     position: absolute;
     font-size: 12px;
     font-family: 'Courier New', Courier, monospace;
@@ -13,7 +13,7 @@
     margin:0;
     padding: 0;
     bottom: 84%;
-    left: 1170px;
+    left: 1210px;
     position: absolute;
     font-size: 12px;
     font-family: 'Courier New', Courier, monospace;
@@ -24,58 +24,57 @@
     margin:0;
     padding: 0;
     bottom: 84%;
-    left: 840px;
+    left: 880px;
     position: absolute;
     font-size: 12px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     max-width: 6%;
   }
-  .clinica{
+  .donante{
     margin:0;
     padding: 0;
     bottom: 82%;
-    left: 965px;
+    left: 1120px;
     position: absolute;
     font-size: 12px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     max-width: 6%;
   }
-.logo-buttons {
-    position: absolute;
-    top: 15px;
-    right: 25px;
-    display: flex;
-    align-items: center;
-}
-
-/* Estilos para cada botón de logotipo */
-.logo-button {
-    margin-left: 50px; /* Espacio entre los botones de logotipo si es necesario */
-    text-decoration: none; /* Elimina el subrayado de los enlaces */
-}
-
-/* Estilos para las imágenes de los botones de logotipo */
-.logo-button img {
-    width: 60px; /* Ancho de la imagen del botón */
-    height: 60px; /* Altura de la imagen del botón */
-    border-radius: 50%; /* Esto hace que las imágenes sean círculos si lo deseas */
-    border: 2px solid #be5555; /* Borde alrededor de la imagen del botón */
-    transition: transform 0.3s ease-in-out; /* Efecto de transformación suave al pasar el cursor */
-}
-
-/* Estilos para el efecto de hover en las imágenes de los botones de logotipo */
-.logo-button img:hover {
-    transform: scale(1.2); /* Escala ligeramente la imagen al pasar el cursor */
-}
+  .logo-buttons {
+      position: absolute;
+      top: 15px;
+      right: 25px;
+      display: flex;
+      align-items: center;
+  }
+  
+  
+  .logo-button {
+      margin-left: 50px; /* Espacio entre los botones de logotipo si es necesario */
+      text-decoration: none; /* Elimina el subrayado de los enlaces */
+  }
+  
+  
+  .logo-button img {
+      width: 60px; /* Ancho de la imagen del botón */
+      height: 60px; /* Altura de la imagen del botón */
+      border-radius: 50%; /* Esto hace que las imágenes sean círculos si lo deseas */
+      border: 2px solid #be5555; /* Borde alrededor de la imagen del botón */
+      transition: transform 0.3s ease-in-out; /* Efecto de transformación suave al pasar el cursor */
+  }
+  
+  
+  .logo-button img:hover {
+      transform: scale(1.2); /* Escala ligeramente la imagen al pasar el cursor */
+  }
 body {
     margin: 0;
     padding: 0;
     background-color: rgb(250, 250, 250);
-    height: 100vh;  
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
-     
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+
 }
 .dejanos , .formulario {
     text-align: center;
