@@ -7,7 +7,7 @@
   margin:0;
   padding: 0;
   bottom: 82%;
-  left: 67.5%;
+  left: 1075px;
   position: absolute;
   font-size: 12px;
   font-family: 'Courier New', Courier, monospace;
@@ -18,17 +18,18 @@
   margin:0;
   padding: 0;
   bottom: 84%;
-  left: 1210px;
+  left: 1170px;
   position: absolute;
   font-size: 12px;
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
+  width: 10%;
 }
-.medico{
+.sugerencias{
   margin:0;
   padding: 0;
-  bottom: 82%;
-  left: 1120px;
+  bottom: 84%;
+  left: 840px;
   position: absolute;
   font-size: 12px;
   font-family: 'Courier New', Courier, monospace;
@@ -39,7 +40,7 @@
   margin:0;
   padding: 0;
   bottom: 82%;
-  left: 1005px;
+  left: 965px;
   position: absolute;
   font-size: 12px;
   font-family: 'Courier New', Courier, monospace;

@@ -69,6 +69,10 @@ $("#registro_clinica").click(function(){
     window.location.replace("registro_clinica.html");
 });
 
+$("#registrar_clinica").click(function(){
+    window.location.replace("registro_clinica.html");
+});
+
 $("#registro_medico").click(function(){
     window.location.replace("registro_medico.html");
 });

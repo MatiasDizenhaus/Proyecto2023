@@ -3,51 +3,50 @@
   border: none;
   cursor: pointer;
 }
-  .donante{
-    margin:0;
-    padding: 0;
-    bottom: 82%;
-    left: 850px;
-    position: absolute;
-    font-size: 12px;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    max-width: 6%;
-  }
-  .Iniciar-sesion{
-    margin:0;
-    padding: 0;
-    bottom: 84%;
-    left: 1170px;
-    position: absolute;
-    font-size: 12px;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    width: 10%;
-    
-  }
-  .medico{
-    margin:0;
-    padding: 0;
-    bottom: 82%;
-    left: 1080px;
-    position: absolute;
-    font-size: 12px;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    max-width: 6%;
-  }
-  .clinica{
-    margin:0;
-    padding: 0;
-    bottom: 82%;
-    left: 965px;
-    position: absolute;
-    font-size: 12px;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    max-width: 6%;
-  }
+.donante{
+  margin:0;
+  padding: 0;
+  bottom: 82%;
+  left: 1075px;
+  position: absolute;
+  font-size: 12px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  max-width: 6%;
+}
+.Iniciar-sesion{
+  margin:0;
+  padding: 0;
+  bottom: 84%;
+  left: 1170px;
+  position: absolute;
+  font-size: 12px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  width: 10%;
+}
+.sugerencias{
+  margin:0;
+  padding: 0;
+  bottom: 84%;
+  left: 840px;
+  position: absolute;
+  font-size: 12px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  max-width: 6%;
+}
+.clinica{
+  margin:0;
+  padding: 0;
+  bottom: 82%;
+  left: 965px;
+  position: absolute;
+  font-size: 12px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  max-width: 6%;
+}
     .logo-buttons {
         position: absolute;
         top: 15px;
