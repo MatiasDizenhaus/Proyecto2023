@@ -81,7 +81,9 @@
       margin: 1px;
       padding: 1px;
       font-size: 20px;
-
+      background-image: url('../imagenes/comodonar.png');
+      background-size: cover;
+      margin-bottom: 15%;
   }
 .texto{
     margin-left: 150px;

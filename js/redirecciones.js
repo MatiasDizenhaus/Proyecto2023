@@ -81,12 +81,11 @@ $("#buscador").click(function(){
     window.location.replace("buscador.html");
 });
 
-$("#clinica_registrada").click(function(){
-    window.location.replace("clinica_registrada.html");
-});
+
 
 $("#medico_registrado").click(function(){
     window.location.replace("medicoregistrado.html");
 });
+
 
 });
