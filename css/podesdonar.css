@@ -7,7 +7,7 @@
   margin:0;
   padding: 0;
   bottom: 82%;
-  left: 1005px;
+  left: 74%;
   position: absolute;
   font-size: 12px;
   font-family: 'Courier New', Courier, monospace;
@@ -18,7 +18,7 @@
   margin:0;
   padding: 0;
   bottom: 84%;
-  left: 1210px;
+  left: 90%;
   position: absolute;
   font-size: 12px;
   font-family: 'Courier New', Courier, monospace;
@@ -29,7 +29,7 @@
   margin:0;
   padding: 0;
   bottom: 84%;
-  left: 880px;
+  left: 65%;
   position: absolute;
   font-size: 12px;
   font-family: 'Courier New', Courier, monospace;
@@ -40,7 +40,7 @@
   margin:0;
   padding: 0;
   bottom: 82%;
-  left: 1120px;
+  left: 83%;
   position: absolute;
   font-size: 12px;
   font-family: 'Courier New', Courier, monospace;
@@ -50,7 +50,7 @@
 .logo-buttons {
     position: absolute;
     top: 15px;
-    right: 25px;
+    right: 4%;
     display: flex;
     align-items: center;
 }
@@ -78,7 +78,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: rgb(250, 250, 250);
-  max-width: 100%; 
+  max-width: 95%;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 
 }
