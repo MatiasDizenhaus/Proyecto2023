@@ -42,33 +42,33 @@
   font-weight: bold;
   max-width: 6%;
 }
-  .logo-buttons {
-      position: absolute;
-      top: 15px;
-      right: 50px;
-      display: flex;
-      align-items: center;
-  }
-  
-  
-  .logo-button {
-      margin-left: 50px; /* Espacio entre los botones de logotipo si es necesario */
-      text-decoration: none; /* Elimina el subrayado de los enlaces */
-  }
-  
-  
-  .logo-button img {
-      width: 60px; /* Ancho de la imagen del botón */
-      height: 60px; /* Altura de la imagen del botón */
-      border-radius: 50%; /* Esto hace que las imágenes sean círculos si lo deseas */
-      border: 2px solid #be5555; /* Borde alrededor de la imagen del botón */
-      transition: transform 0.3s ease-in-out; /* Efecto de transformación suave al pasar el cursor */
-  }
-  
-  
-  .logo-button img:hover {
-      transform: scale(1.2); /* Escala ligeramente la imagen al pasar el cursor */
-  }
+.logo-buttons {
+  position: absolute;
+  top: 15px;
+  right: 50px;
+  display: flex;
+  align-items: center;
+}
+
+
+.logo-button {
+  margin-left: 50px; 
+  text-decoration: none; 
+}
+
+
+.logo-button img {
+  width: 60px; 
+  height: 60px;
+  border-radius: 50%; 
+  border: 2px solid #be5555; 
+  transition: transform 0.3s ease-in-out; 
+}
+
+
+.logo-button img:hover {
+  transform: scale(1.2);
+}
 body {
     margin: 0;
     padding: 0;
