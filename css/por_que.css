@@ -84,20 +84,20 @@ body {
 
 }
 .razones {
-    text-align: center; /* Centra el contenido en el medio */
-    font-size: 30px; /* Aumenta el tamaño de la fuente */
+    text-align: center; 
+    font-size: 30px; 
     margin-left: 5%;
     margin-top: 2%;
 }
 .titulo{
-    text-align: center; /* Centra el contenido en el medio */
-    font-size: 30px; /* Aumenta el tamaño de la fuente */
-    color: #be5555; /* Cambia el color del texto a rojo */
+    text-align: center; 
+    font-size: 30px; 
+    color: #be5555;
     margin-left: 5%;
     margin-top: 2%;
 }
 .pregunta2{
-    color: #be5555; /* Cambia el color del texto a rojo */
+    color: #be5555; 
 
 }
 .manos , .sangre{

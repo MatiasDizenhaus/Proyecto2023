@@ -100,7 +100,6 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Estilo para las etiquetas */
 label {
     display: block;
     margin-top: 10px;
@@ -108,13 +107,11 @@ label {
     font-weight: bold;
 }
 
-/* Estilo para las opciones de radio y el campo de texto */
 input[type="radio"], input[type="text"] {
     margin-top: 5px;
     margin-bottom: 10px;
 }
 
-/* Estilo para los botones de radio */
 input[type="radio"] {
     margin-right: 10px;
 }
