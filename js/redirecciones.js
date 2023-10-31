@@ -29,6 +29,10 @@ $("#sugerencias").click(function(){
     window.location.replace("sugerencias.html");
 });
 
+$("#sugerencia").click(function(){
+    window.location.replace("sugerencias.html");
+});
+
 $("#iniciar_sesion").click(function(){
     window.location.replace("menuiniciodesesion.html");
 });

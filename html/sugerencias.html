@@ -8,7 +8,7 @@
 </head>
 <body>
     <button type="button" class="logo" id="volver">
-        <img src="../imagenes/logo2.0.png" width="150px" height="75px"/>
+        <img src="../imagenes/logo2.0.png" width="250px" height="50px"/>
       </button>    
       <div class="logo-buttons">
         <a href="#" class="logo-button"><img src="../imagenes/lamparita.png" alt="Logo 1" id="sugerencias"></a>
@@ -24,16 +24,17 @@
     <div class="dejanos">
         <h1> Dejanos aca tu sugerencia</h1>
     </div>
-    <br>
-    <form action="/formulario" method="GET" class="formulario">
+    
+    <form action="https://formsubmit.co/aribialo1109@gmail.com" method="POST" class="formulario">
+        <input type="email" id="correo" name="correo" required class="mail" placeholder="escribí tu mail"><br><br>
+        <br>
         <textarea id="comentario" placeholder="Sugerencias" name ="comentario" ></textarea>  
         <br>
         <br>
         <br>
-        <input type="submit" value="Enviar">
-             <tr>
-                 <td text-align=center colspan=3> <input type="hidden" name="SI" value="L"></td>
-             </tr>   
+        <input type="submit" value="Enviar" >
+        <input type="hidden" name="next" value="http://localhost/Proyecto2023/html/sugerencias.html">
+        <input type="hidden" name="camptcha" value="false">     
      </form>
      <div class="gracias">
         <h2> ¡¡Gracias por ayudarnos a mejorar!!</h2>

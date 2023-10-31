@@ -93,6 +93,8 @@ h1{
   background: none;
   border: none;
   cursor: pointer;
+  margin: 10px;
+  padding: 10px;
 }
 .pdf{
     max-width: 85%;
