@@ -127,7 +127,7 @@
       max-width: 450px;
     }
     
-    input[type="submit"]{
+    .medico_registrado{
       margin: 0;
       padding: 0;
       width: 100%;
@@ -143,7 +143,7 @@
       max-width: 100px;
       margin-left: 0;
     }
-    input[type="submit"]:hover{
+    .medico_registrado:hover{
       transition: .5s;
       background:#be5555;
     }
