@@ -17,8 +17,8 @@
    
 <div><p class="sugerencias">Sugerencias</p></div>
 <div><p class="clinica">Registro de Donante</p></div>
-<div><p class="donante">Registro de Clínica</p></div>
-<div><p class="Iniciar-sesion">Iniciar sesión</p></div>
+<div><p class="donante">Registro de Clinica</p></div>
+<div><p class="Iniciar-sesion">Iniciar sesion</p></div>
     
     <section class="perfiles-gallery">
 
@@ -27,12 +27,11 @@
     foreach ($perfiles as $perfil) {
   ?>
     <div class="perfiles">
-      <img src="<?php echo $perfil['imagen']; ?>" alt="Foto del perfil">
       <h3><?php echo $perfil['nombre']; ?></h3>
       <p>Tipo de sangre: <?php echo $perfil['tipo_de_sangre']; ?></p>
-      <p>Dirección: <?php echo $perfil['direccion']; ?></p>
-      <p>Correo electrónico: <?php echo $perfil['correo']; ?></p>
-      <p>Teléfono: <?php echo $perfil['telefono']; ?></p>
+      <p>Direccion: <?php echo $perfil['direccion']; ?></p>
+      <p>Correo electronico: <?php echo $perfil['correo']; ?></p>
+      <p>Telefono: <?php echo $perfil['telefono']; ?></p>
     </div>
   <?php
     }

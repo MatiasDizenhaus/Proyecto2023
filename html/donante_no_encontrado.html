@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sugerencias</title>
-    <link rel="stylesheet" href="../css/sugerencias.css"> 
+    <title>Donante no encontrado </title>
+    <link rel="stylesheet" href="../css/donante_no_encontrado.css"> 
 </head>
 <body>
     <button type="button" class="logo" id="volver">
         <img src="../imagenes/logo2.0.png" width="250px" height="50px"/>
-      </button>    
+    </button>    
       <div class="logo-buttons">
         <a href="#" class="logo-button"><img src="../imagenes/lamparita.png" alt="Logo 1" id="sugerencias"></a>
         <a href="#" class="logo-button"><img src="../imagenes/foto_gota.png" alt="Logo 2" id="registro_donante"></a>
@@ -21,24 +21,14 @@
     <div><p class="clinica">Registro de Donante</p></div>
     <div><p class="donante">Registro de Clínica</p></div>
     <div><p class="Iniciar-sesion">Iniciar sesión</p></div>
-    <div class="dejanos">
-        <h1> Dejanos aca tu comentario o pregunta</h1>
-    </div>
-    
-    <form action="https://formsubmit.co/proyecto.gotasolidaria@gmail.com" method="POST" class="formulario">
-        <input type="email" id="correo" name="correo" required class="mail" placeholder="escribí tu mail"><br><br>
-        <br>
-        <textarea id="comentario" placeholder="asunto" name ="comentario" ></textarea>  
-        <br>
-        <br>
-        <br>
-        <input type="submit" value="Enviar" >
-        <input type="hidden" name="_next" value="http://localhost/Proyecto2023/html/comentario_enviado.html">    
-        <input type="hidden" name="_captcha" value="false" >     
- 
-     </form>
-     
-
+    <br>
+    <h1 class="titulo"> donante no encontrado</h1> 
+    <h4 class="subtitulo">No hay ningún donante que cumpla con esas caracteristicas</h4>
+    <div>
+        <input type="submit" value="Buscar mas donantes" id="buscador">
+            
+        <input type="submit" value="Volver a la página principal" id="volverpp">      
+    </div>    
 </body>
 <script type="text/javascript" src="../js/jquery-3.7.1.js"></script>
 <script type="text/javascript" src="../js/redirecciones.js"></script>

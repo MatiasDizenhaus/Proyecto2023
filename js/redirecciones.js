@@ -33,6 +33,10 @@ $("#sugerencia").click(function(){
     window.location.replace("sugerencias.html");
 });
 
+$("#comentario").click(function(){
+    window.location.replace("sugerencias.html");
+});
+
 $("#iniciar_sesion").click(function(){
     window.location.replace("menuiniciodesesion.html");
 });
@@ -94,6 +98,7 @@ $("#buscador").click(function(){
 $("#medico_registrado").click(function(){
     window.location.replace("medicoregistrado.html");
 });
+
 
 
 });
