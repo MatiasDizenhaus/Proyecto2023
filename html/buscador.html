@@ -22,8 +22,8 @@
     <div><p class="donante">Registro de Clinica</p></div>
     <div><p class="Iniciar-sesion">Iniciar sesion</p></div>
     <h1>Buscador de donantes compatibles</h1>
-    <form method="POST" action="candidatos.html">
-        <select name="Provincia">
+    <form method="POST" action="#Bus">
+        <select id="Provincia">
             <option value="">Provincia</option>
             <option value="1">Ciudad Autonoma de Buenos Aires</option>
             <option value="2">Buenos Aires</option>
@@ -50,7 +50,7 @@
             <option value="23">Tierra del Fuego</option>
             <option value="24">Tucuman</option>
         </select>
-        <select name="Sangre">
+        <select id="Sangre">
             <option value="">Tipo de sangre</option>
             <option value="1">A+</option>
             <option value="2">A-</option>
@@ -62,7 +62,7 @@
             <option value="8">0-</option>
           
         </select>
-        <input type="submit" value="Buscar" id="candidatos" >
+        <input type="button" value="Buscar" id="candidatos" >
     </form>
 </body>
 <script type="text/javascript" src="../js/jquery-3.7.1.js"></script>

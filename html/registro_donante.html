@@ -24,30 +24,30 @@
     <div>
         <h1> Registro de donante</h1>
     </div>
-    <form action="procesar_formulario.php" method="POST">
+    <form action="#RegDon" method="POST">
         <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" required><br><br>
+        <input type="text" id="nombre" id="nombre" required><br><br>
 
         <label for="apellido">Apellido:</label>
-        <input type="text" id="apellido" name="apellido" required><br><br>
+        <input type="text" id="apellido" id="apellido" required><br><br>
 
         <label for="dni">DNI:</label>
-        <input type="text" id="dni" name="dni" required><br><br>
+        <input type="text" id="dni" id="dni" required><br><br>
 
         <label for="contrasena">Contraseña:</label>
-        <input type="password" id="contrasena" name="contrasena" required><br><br>
+        <input type="password" id="contrasena" id="contrasena" required><br><br>
 
         <label for="telefono">Teléfono:</label>
-        <input type="tel" id="telefono" name="telefono"><br><br>
+        <input type="tel" id="telefono" id="telefono"><br><br>
 
         <label for="correo">Mail:</label>
-        <input type="email" id="correo" name="correo" required><br><br>
+        <input type="email" id="correo" id="correo" required><br><br>
 
         <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
-        <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required><br><br>
+        <input type="date" id="fecha_nacimiento" id="fecha_nacimiento" required><br><br>
 
         <label for="genero">Género:</label>
-        <select id="genero" name="genero" required class="genero">
+        <select id="genero" id="genero" required class="genero">
             <option value=""></option>
             <option value="masculino">masculino</option>
             <option value="femenino">femenino</option>
@@ -55,13 +55,13 @@
 
 
         <label for="peso">Peso (kg):</label>
-        <input type="number" id="peso" name="peso"><br><br>
+        <input type="number" id="peso" id="peso"><br><br>
 
         <label for="altura">Altura (cm):</label>
-        <input type="number" id="altura" name="altura"><br><br>
+        <input type="number" id="altura" id="altura"><br><br>
 
         <label for="localidad">Localidad:</label>
-        <select name="IDProvincia" id="Provincia" class="localidad">
+        <select id="IDProvincia" id="Provincia" class="localidad">
             <option value="1">Ciudad Autonoma de Buenos Aires</option>
             <option value="2">Buenos Aires</option>
             <option value="3">Catamarca</option>
@@ -90,7 +90,7 @@
 <br>
 <br>
         
-<input type="submit" value="Enviar" id="formulario">
+<input type="button" value="Enviar" id="formulario">
     </form>
 </body>
 <script type="text/javascript" src="../js/jquery-3.7.1.js"></script>
