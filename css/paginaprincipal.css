@@ -165,8 +165,9 @@ body {
     background: none;
     border: none;
     cursor: pointer;
-    margin: 10px;
-    padding: 10px;
+    margin: 7px;
+    padding: 7px;
+    margin-left: 65px;
 }
 .queres{
   font-size: 20px;
